@@ -35,7 +35,7 @@ plt.show()
 # x = data.iloc[:, 1:4]
 
 print("-" * 80)
-print("Selecting the features")
+print("Selecting the features (picked Latitude and Longitude, removed Country and Language)")
 x = data.iloc[:, 1:3]
 print(x)
 
